@@ -71,6 +71,19 @@ b, strong {
   font-weight: bold;
 }
 
+audio::-webkit-media-controls-panel {
+  background-color: transparent;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: rgba(177,212,224, .7);
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #38E04C;
+}
+
 .custom-btn {
   background: #eee;
   color: #5b5b5b;
@@ -126,7 +139,7 @@ b, strong {
   animation-delay: 2s;
 }
 .animated-item:nth-child(3n+3) {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 @keyframes BottomTotop {

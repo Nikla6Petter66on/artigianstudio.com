@@ -71,6 +71,10 @@ b, strong {
   font-weight: bold;
 }
 
+audio {
+  margin: 2em;
+}
+
 audio::-webkit-media-controls-panel {
   background-color: transparent;
 }

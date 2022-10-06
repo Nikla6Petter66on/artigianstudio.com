@@ -206,6 +206,11 @@ b, strong {
   font-weight: bold;
 }
 
+.navbar-brand img {
+  max-height: 2em;
+  max-width: 2em;
+}
+
 .navbar-expand-sm .navbar-nav .nav-link {
   padding: 0 20px;
 }

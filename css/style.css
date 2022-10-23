@@ -38,6 +38,10 @@ a:hover {
   font-size: 40px;
 }
 
+.herotext {
+  color: #CE25FA;
+}
+
 p {
   font-size: 18px;
   font-weight: 300;
@@ -131,7 +135,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #067A50;
+  color: #CE25FA;
 }
 
 .animated-item {

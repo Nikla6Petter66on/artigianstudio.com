@@ -466,6 +466,7 @@ b, strong {
 
 .contact-form {
   position: relative;
+  text-align: center;
 }
 .contact-form .form-control {
   background: transparent;
@@ -483,12 +484,15 @@ b, strong {
 }
 .contact-form .submit-btn {
   background: #CE25FA;
-  border-radius: 50px;
+  border-radius: 12px;
   color: #ffffff;
   font-weight: bold;
   border: 0;
   cursor: pointer;
   transition: all 0.4s ease;
+  padding: 1em;
+  min-width: 10em;
+  text-align: center;
 }
 .contact-form .submit-btn:hover {
   background: #474559;

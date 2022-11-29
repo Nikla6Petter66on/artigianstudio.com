@@ -28,3 +28,22 @@ function audioEnded () {
 }
 
 audio.onended = audioEnded;
+
+
+const timeline = document.querySelector('.timeline');
+
+
+function changeTimelinePosition () {
+  const percentagePosition = (100*audio.currentTime) / audio.duration;
+  timeline.style.backgroundSize = `${percentagePosition}% 100%`;
+  timeline.value = percentagePosition;
+}
+
+audio.ontimeupdate = changeTimelinePosition;
+
+function changeSeek () {
+  const time = (timeline.value * audio.duration) / 100;
+  audio.currentTime = time;
+}
+
+timeline.addEventListener('change', changeSeek);

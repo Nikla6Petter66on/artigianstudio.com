@@ -492,7 +492,7 @@ b, strong {
   transition: all 0.4s ease;
   padding: 1em;
   min-width: 10em;
-  text-align: center;
+  
 }
 .contact-form .submit-btn:hover {
   background: #474559;

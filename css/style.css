@@ -17,6 +17,19 @@ body {
   letter-spacing: 0.2px;
 }
 
+.item {
+  position:relative;
+}
+
+.items {
+  margin-top: 15em;
+  margin-bottom: 15em;
+}
+
+.project-info {
+  position: relative;
+}
+
 ul {
   margin: 0;
   padding: 0;

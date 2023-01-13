@@ -8,6 +8,13 @@ body {
   padding: 8rem 0;
 }
 
+.libraryButton {
+  background-color: #CE25FA;
+  color: #fff;
+  outline: none;
+
+}
+
 .small-text {
   color: #5b5b5b;
   font-size: 14px;
@@ -444,6 +451,11 @@ b, strong {
   margin-left: 15px;
 }
 
+.projectText {
+  color: #474559;
+  font-size: 16px; 
+}
+
 .owl-carousel .owl-nav span {
   display: none;
 }
@@ -659,10 +671,6 @@ b, strong {
 
   .contact-form .submit-btn {
     min-width: none;
-  }
-
-  .required  {
-    max-width: 5em;
   }
 
 }

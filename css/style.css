@@ -88,6 +88,22 @@ b, strong {
   font-weight: bold;
 }
 
+.library {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.smallFigure {
+  max-width: 10em;
+}
+
+.libraryText:hover {
+  color: #CE25FA;
+}
+
 .audio-player {
   --player-button-width: 10em;
 }
@@ -638,4 +654,12 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+
+  .contact-form .submit-btn {
+    left: 10%;
+    transform: translate(-10%);
+    min-width: none;
+
+  }
+
 }

@@ -498,6 +498,7 @@ b, strong {
 .contact-form {
   position: relative;
   text-align: center;
+  min-width: 20em;
 }
 .contact-form .form-control {
   background: transparent;
@@ -523,10 +524,7 @@ b, strong {
   transition: all 0.4s ease;
   padding: 1em;
   min-width: 20em;
-  position: absolute;
-  left: 30%;
-  transform: translate(-30%);
-  
+ 
 }
 .contact-form .submit-btn:hover {
   background: #474559;
@@ -655,11 +653,16 @@ b, strong {
     vertical-align: top;
   }
 
-  .contact-form .submit-btn {
-    left: 10%;
-    transform: translate(-10%);
+  .contact-form {
     min-width: none;
+  }
 
+  .contact-form .submit-btn {
+    min-width: none;
+  }
+
+  .required  {
+    max-width: 5em;
   }
 
 }

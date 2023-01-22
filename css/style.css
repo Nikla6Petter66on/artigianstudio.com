@@ -9,10 +9,20 @@ body {
 }
 
 .libraryButton {
-  background-color: #CE25FA;
-  color: #fff;
-  outline: none;
+  border-style: none;
+  background-color: #343a40;
+  color: #eee;
+  font-size: 1em;
+  width: 9em;
+  height: 9em;
+  margin-left: 2.5em;
+  margin-top: 1em;
+  border-radius: 50%;
+}
 
+.libraryButton:hover {
+  background-color: #CE25FA;
+  border-style: none;
 }
 
 .small-text {

@@ -60,6 +60,7 @@ a:hover {
 
 .herotext {
   color: #CE25FA;
+  margin-top: 2em;
 }
 
 p {
@@ -567,7 +568,10 @@ b, strong {
     position: relative;
     bottom: 50px;
   }
+
+  .
 }
+
 @media (max-width: 991px) {
   .full-screen {
     padding-bottom: 4rem;
@@ -578,7 +582,7 @@ b, strong {
   }
 
   .about-image {
-    margin-top: 4em;
+    margin-top: 1em;
   }
 
   .mobile-mt-2,
@@ -589,6 +593,7 @@ b, strong {
   .contact-info {
     padding: 0 2rem;
   }
+
 }
 @media (max-width: 767px) {
   h1 {

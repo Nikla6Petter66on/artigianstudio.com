@@ -15,7 +15,7 @@ body {
   font-size: 1em;
   width: 9em;
   height: 9em;
-  margin-left: 2.5em;
+  margin-left: 2em;
   margin-top: 1em;
   border-radius: 50%;
   font-weight: 700;
@@ -518,12 +518,21 @@ b, strong {
   width: 100%;
 }
 
-
-
-.contact-form {
+.mb-4 {
   position: relative;
   text-align: center;
-  min-width: 20em;
+}
+
+.mc-field-group {
+  position: relative;
+  text-align: center;
+}
+
+.submit {
+  position: relative;
+  text-align: center;
+  margin-left: 5em;
+  min-width: auto;
 }
 .contact-form .form-control {
   background: transparent;

@@ -531,7 +531,7 @@ b, strong {
 .submit {
   position: relative;
   text-align: center;
-  margin-left: 3em;
+  margin-left: 6em;
   min-width: auto;
 }
 .contact-form .form-control {
@@ -693,6 +693,7 @@ b, strong {
 
   .contact-form {
     min-width: none;
+    margin-left: none;
   }
 
   .contact-form .submit-btn {

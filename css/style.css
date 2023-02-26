@@ -21,6 +21,10 @@ body {
   font-weight: 700;
 }
 
+.musicLibrary {
+  margin-bottom: 4em;
+}
+
 .libraryButton:hover {
   background-color: #CE25FA;
   border-style: none;
@@ -133,104 +137,6 @@ b, strong {
 
 .audio-player {
   --player-button-width: 10em;
-}
-
-.controls {
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 2em;
-}
-
-.timelineAudio {
-  -webkit-appearance: none;
-  width: calc(100% - (var(--player-button-width) + var(--sound-button-width) + var(--space)));
-  height: .5em;
-  background-color: #e5e5e5;
-  border-radius: 5px;
-  background-size: 0% 100%;
-  background-image: linear-gradient(#CE25FA, #CE25FA);
-  background-repeat: no-repeat;
-  margin-right: var(--space);
-}
-
-.timelineAudio::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: 0;
-  transition: all .1s;
-  background-color: #CE25FA;
-}
-
-.timelineAudio::-moz-range-thumb {
-  -webkit-appearance: none;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: 0;
-  transition: all .1s;
-  background-color: #CE25FA;
-}
-
-.timelineAudio::-ms-thumb {
-  -webkit-appearance: none;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: 0;
-  transition: all .1s;
-  background-color: #CE25FA;
-}
-
-.timelineAudio::-webkit-slider-thumb:hover {
-  background-color: #CE25FA;
-}
-
-.timelineAudio.::-webkit-slider-thumb {
-  opacity: 1;
-}
-
-.timelineAudio::-moz-range-thumb:hover {
-  background-color: #CE25FA;
-}
-
-.timelineAudio::-moz-range-thumb {
-  opacity: 1;
-}
-
-.timelineAudio::-ms-thumb:hover {
-  background-color: #CE25FA;
-}
-
-.timelineAudio::-ms-thumb {
-  opacity: 1;
-}
-
-.timelineAudio::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
-  box-shadow: none;
-  border: none;
-  background: transparent;
-}
-
-.timelineAudio::-moz-range-track {
-  -webkit-appearance: none;
-  box-shadow: none;
-  border: none;
-  background: transparent;
-}
-
-.timelineAudio::-ms-track {
-  -webkit-appearance: none;
-  box-shadow: none;
-  border: none;
-  background: transparent;
 }
 
 

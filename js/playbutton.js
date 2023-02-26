@@ -1,3 +1,5 @@
+
+
 const playerButton = document.querySelector('.player-button'),
       audio = document.querySelector('audio'),
       timeline = document.querySelector('.timeline'),

@@ -19,6 +19,37 @@
   </head>
   <body>
 
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container">
+              <a class="navbar-brand" href="index.html"><img src="images/logo/HammerLogo.png"></a>
+  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                          <a href="#about" class="nav-link"><span data-hover="Artisan">Artisan</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#project" class="nav-link"><span data-hover="The Music">The Music</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#resume" class="nav-link"><span data-hover="About me">About me</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#contact" class="nav-link"><span data-hover="Contact Me">Contact Me</span></a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
     <!-- HERO -->
     <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="musicList">
 
@@ -26,71 +57,19 @@
           <div class="col-lg-11 text-center mx-auto col-12">
             
             <div class="audio-player">
-                <div class="title">Hip Hop</div>
-                <div class="controls"> 
-                    
+                <div class="title"><h3>Hip Hop</h3></div>
                   <audio src="music/88 - Atomi KO - Velka.mp3"></audio>
-                  
-                  <button class="player-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
+
+                  <div class="controls"> 
+                    <button class="player-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-                    </svg>
-                  </button>
-                  <input type="range" class="timeline" max="100" value="0">  
-                </div>
-              </div>
-
-              <div class="audio-player">
-                <div class="title">Singers Songwriters</div>
-                <div class="controls">
-                  <audio src="music/88 - Atomi KO - Velka.mp3"></audio>
-                  <button class="player-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-              </svg>
-                  </button>
-                  <input type="range" class="timeline" max="100" value="0">  
-                </div>
-              </div>
-
-              <div class="audio-player">
-                <div class="title">Trap/Pop</div>
-                <div class="controls">
-                  <audio src="music/88 - Atomi KO - Velka.mp3"></audio>
-                  <button class="player-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-              </svg>
-                  </button>
-                  <input type="range" class="timeline" max="100" value="0">  
-                </div>
-              </div>
-
-              <div class="audio-player">
-                <div class="title">Band</div>
-                <div class="controls">
-                  <audio src="music/88 - Atomi KO - Velka.mp3"></audio>
-                  <button class="player-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-              </svg>
-                  </button>
-                  <input type="range" class="timeline" max="100" value="0">  
-                </div>
-              </div>
-
-              <div class="audio-player">
-                <div class="title">Singer/Songwriter</div>
-                <div class="controls">
-                  <audio src="music/88 - Atomi KO - Velka.mp3"></audio>
-                  <button class="player-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-              </svg>
-                  </button>
-                  <input type="range" class="timeline" max="100" value="0">  
-                </div>
-              </div>
+                      </svg>
+                    </button>
+                    <input type="range" class="timelineAudio" max="100" value="0">      
+                  </div>
+            </div>
+            
           </div>  
         </div>
 

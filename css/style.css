@@ -590,15 +590,14 @@ b, strong {
 
 .containerImageLibrary {
   width: 1200px;
-  margin: 0px;
-  columns: 4;
+  margin: 5px;
+  columns: 3;
   column-gap: 10;
 }
 
 .masonryPic {
   max-width: 400px;
   padding: 20px;
-  float: left;
   margin-bottom: 10px;
   break-inside: avoid;
 }
@@ -682,6 +681,20 @@ b, strong {
   .timeline-info small {
     display: block;
     margin: 10px 0 0 0;
+  }
+
+  .containerImageLibrary {
+    width: 100px;
+    margin: 1px;
+    columns: 1;
+    column-gap: 1;
+  }
+
+  .submit {
+      position: relative;
+      text-align: center;
+      margin-left: 1em;
+      min-width: auto;
   }
 
 }

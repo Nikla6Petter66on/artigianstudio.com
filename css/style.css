@@ -588,6 +588,21 @@ b, strong {
   color: #CE25FA;
 }
 
+.containerImageLibrary {
+  width: 1200px;
+  margin: 0px;
+  columns: 4;
+  column-gap: 10;
+}
+
+.masonryPic {
+  max-width: 400px;
+  padding: 20px;
+  float: left;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;
@@ -668,6 +683,7 @@ b, strong {
     display: block;
     margin: 10px 0 0 0;
   }
+
 }
 @media (max-width: 320px) {
   .animated-text {

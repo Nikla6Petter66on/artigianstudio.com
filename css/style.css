@@ -740,3 +740,11 @@ b, strong {
   padding: 2em;
   background-color: #CE25FA;
 }
+
+
+.bioIMG {
+  border-radius: 20%;
+  padding: 2em;
+  max-width: 400px;
+  max-height: 300px;
+}

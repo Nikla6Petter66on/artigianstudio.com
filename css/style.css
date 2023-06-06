@@ -734,3 +734,9 @@ b, strong {
   }
 
 }
+
+.ctaNavBar {
+  color: #fff !important;
+  padding: 2em;
+  background-color: #CE25FA;
+}

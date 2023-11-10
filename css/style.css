@@ -31,6 +31,26 @@ body {
   font-weight: 1000;
 }
 
+.libraryButton2 {
+  border-style: none;
+  background-color: #343a40;
+  color: #eee;
+  font-size: 1.5em;
+  width: 12em;
+  height: 12em;
+  margin-left: 2em;
+  margin-top: 1em;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+
+.libraryButton2:hover {
+  background-color: #CE25FA;
+  border-style: none;
+  font-weight: 1000;
+}
+
 .title {
   color:#5b5b5b;
   font-size: 1.5em;
